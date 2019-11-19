@@ -1,11 +1,9 @@
 <?php
 
 
+    require_once 'core/System.php';
 
-    echo "Hi.. it will be a first commit :)";
-
-
-
+    $system = new System;
 
 
 
