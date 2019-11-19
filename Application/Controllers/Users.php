@@ -8,6 +8,22 @@
 
 class Users {
     public function index(){
-        echo 'Users pagee...';
+        echo 'Users page...';
+    }
+
+    public function getuser($id = 0){
+
+        if(empty($id)){
+            exit;
+        } else {
+            echo $id;
+        }
+
+
+
+    }
+
+    public function userslist(){
+        echo 'Users list...';
     }
 }
