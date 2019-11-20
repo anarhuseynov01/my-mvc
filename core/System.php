@@ -9,7 +9,7 @@
 Class System {
     protected $controller;
     protected $method;
-    protected $controllerPath = 'Application/Controllers';
+
     public function __construct()
     {
         if(isset($_GET['act'])){
@@ -30,8 +30,8 @@ Class System {
 
 
 
-        if(file_exists($this->controllerPath.'/'.$this->controller.'.php')){
-            require_once $this->controllerPath.'/'.$this->controller.'.php';
+        if(file_exists(CONTROLLER_PATH.'/'.$this->controller.'.php')){
+            require_once CONTROLLER_PATH.'/'.$this->controller.'.php';
             if(class_exists($this->controller)){
                 if($this->controller === 'Main' && $this->method === 'index'){
                     $url = [];
@@ -48,7 +48,7 @@ Class System {
                 $this->controller = 'Main';
                 $this->method = 'index';
                 $arg = [];
-                require_once $this->controllerPath.'/'.$this->controller.'.php';
+                require_once CONTROLLER_PATH.'/'.$this->controller.'.php';
                 $this->controller = new $this->controller;
                 call_user_func_array([$this->controller,$this->method], $arg);
         }
