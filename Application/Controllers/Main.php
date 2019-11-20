@@ -7,8 +7,11 @@
  */
 
 
-Class Main {
+Class Main extends Controller {
     public function index(){
-        echo 'It will be my main page controller';
+
+
+        $this->render('home',['ad'=>'Anar','soyad'=>'Huseynov']);
+
     }
 }
