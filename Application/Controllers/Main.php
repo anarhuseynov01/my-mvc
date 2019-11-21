@@ -10,8 +10,7 @@
 Class Main extends Controller {
     public function index(){
 
-
-        $this->render('home',['ad'=>'Anar','soyad'=>'Huseynov']);
+        $this->render('home',[]);
 
     }
 }

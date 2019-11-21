@@ -20,9 +20,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>This is my Home Page ! </h1>
-    <p>I am very exciting for created myself mvc structure</p>
-    <p>Name : <?= $params['ad'] ?></p>
-    <p>Surname : <?= $params['soyad'] ?></p>
+    <h1>This is my MVC design patter ! </h1>
+    <p>Enjoy that!</p>
+    <p>Name : Anar</p>
+    <p>Surname : Huseynov </p>
 </body>
 </html>
