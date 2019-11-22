@@ -24,7 +24,7 @@ if(!defined("MY_SCRIPT")){
     <title>Document</title>
 </head>
 <body>
-    <h1>This is my MVC design patter ! </h1>
+    <h1>This is my MVC design pattern ! </h1>
     <p>Enjoy that!</p>
     <p>Name : Anar</p>
     <p>Surname : Huseynov </p>
