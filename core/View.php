@@ -6,6 +6,11 @@
  * Time: 12:09 AM
  */
 
+
+if(!defined("MY_SCRIPT")){
+    exit;
+}
+
 Class View {
     public static function render($file,$params = []){
         if(file_exists(VIEW_PATH.'/'.$file.'.php')){

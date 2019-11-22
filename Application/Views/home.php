@@ -6,6 +6,10 @@
  * Time: 12:16 AM
  */
 
+if(!defined("MY_SCRIPT")){
+    exit;
+}
+
 
 ?>
 

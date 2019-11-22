@@ -6,6 +6,11 @@
  * Time: 1:10 AM
  */
 
+
+if(!defined("MY_SCRIPT")){
+    exit;
+}
+
 class Model {
     public $db;
     public function __construct()

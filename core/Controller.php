@@ -6,6 +6,10 @@
  * Time: 11:52 PM
  */
 
+if(!defined("MY_SCRIPT")){
+    exit;
+}
+
 class Controller {
     public function render($file,$params = []){
         return View::render($file,$params);

@@ -7,6 +7,10 @@
  */
 
 
+if(!defined("MY_SCRIPT")){
+    exit;
+}
+
 Class Main extends Controller {
     public function index(){
 

@@ -6,6 +6,12 @@
  * Time: 12:05 AM
  */
 
+
+if(!defined("MY_SCRIPT")){
+    exit;
+}
+
+
 define("MODEL_PATH","Application/Models");
 define("VIEW_PATH","Application/Views");
 define("CONTROLLER_PATH","Application/Controllers");

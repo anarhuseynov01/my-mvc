@@ -6,6 +6,11 @@
  * Time: 1:03 AM
  */
 
+
+if(!defined("MY_SCRIPT")){
+    exit;
+}
+
 Class System {
     protected $controller;
     protected $method;

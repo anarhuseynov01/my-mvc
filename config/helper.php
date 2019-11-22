@@ -1,5 +1,8 @@
 <?php
 
+if(!defined("MY_SCRIPT")){
+    exit;
+}
 
 class Helper {
     public static function redirect($url){
